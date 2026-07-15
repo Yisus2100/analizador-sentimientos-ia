@@ -1,6 +1,5 @@
 # Backend (Java/Maven)
 backend/target/
-backend/.mvn/
 *.class
 
 # Frontend (Node/React)
