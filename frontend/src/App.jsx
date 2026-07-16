@@ -7,7 +7,7 @@ function App() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    axios.get('http://localhost:8080/api/health')
+    axios.get('https://analizador-sentimientos-backend.onrender.com/api/health')
       .then(response => {
         setHealth(response.data)
       })
